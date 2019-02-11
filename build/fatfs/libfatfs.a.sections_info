@@ -1,0 +1,907 @@
+In archive C:/msys64/home/peterglen/esp/esp-code/sniff/build/fatfs/libfatfs.a:
+
+diskio.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.ff_diskio_get_drive 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.ff_diskio_register 00000028  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.ff_disk_initialize 00000004  00000000  00000000  00000060  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.ff_disk_status 00000004  00000000  00000000  00000064  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.ff_disk_read 00000004  00000000  00000000  00000068  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.ff_disk_write 00000004  00000000  00000000  0000006c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.ff_disk_ioctl 00000004  00000000  00000000  00000070  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.get_fattime 00000008  00000000  00000000  00000074  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text         00000000  00000000  00000000  0000007c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  9 .data         00000000  00000000  00000000  0000007c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 10 .bss          00000000  00000000  00000000  0000007c  2**0
+                  ALLOC
+ 11 .text.ff_diskio_get_drive 00000026  00000000  00000000  0000007c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .rodata.str1.4 00000065  00000000  00000000  000000a4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 13 .text.ff_diskio_register 00000066  00000000  00000000  0000010c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.ff_disk_initialize 00000018  00000000  00000000  00000174  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.ff_disk_status 00000018  00000000  00000000  0000018c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.ff_disk_read 0000001d  00000000  00000000  000001a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.ff_disk_write 0000001d  00000000  00000000  000001c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.ff_disk_ioctl 0000001c  00000000  00000000  000001e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.get_fattime 0000005c  00000000  00000000  00000200  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .rodata.__func__$5657 00000013  00000000  00000000  0000025c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 21 .data.VolToPart 00000004  00000000  00000000  00000270  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 22 .bss.s_impls  00000008  00000000  00000000  00000274  2**2
+                  ALLOC
+ 23 .debug_frame  000000d0  00000000  00000000  00000274  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 24 .debug_info   000006a0  00000000  00000000  00000344  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_abbrev 000001e2  00000000  00000000  000009e4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 26 .debug_loc    00000191  00000000  00000000  00000bc6  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 27 .debug_aranges 00000058  00000000  00000000  00000d57  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 28 .debug_ranges 00000048  00000000  00000000  00000daf  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 29 .debug_line   00000397  00000000  00000000  00000df7  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 30 .debug_str    00000392  00000000  00000000  0000118e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 31 .comment      0000003c  00000000  00000000  00001520  2**0
+                  CONTENTS, READONLY
+ 32 .xtensa.info  00000038  00000000  00000000  0000155c  2**0
+                  CONTENTS, READONLY
+ 33 .xt.lit       00000040  00000000  00000000  00001594  2**0
+                  CONTENTS, RELOC, READONLY
+ 34 .xt.prop      00000210  00000000  00000000  000015d4  2**0
+                  CONTENTS, RELOC, READONLY
+
+vfs_fat.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.find_unused_context_index 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.get_next_fd 00000004  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .literal.fat_mode_conv 00000004  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .literal.vfs_fat_fstat 00000008  00000000  00000000  00000040  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .literal.prepend_drive_to_path 00000014  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.fresult_to_errno 0000001c  00000000  00000000  0000005c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.vfs_fat_utime 00000030  00000000  00000000  00000078  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.vfs_fat_telldir 00000010  00000000  00000000  000000a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.vfs_fat_lseek 0000001c  00000000  00000000  000000b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.vfs_fat_truncate 00000070  00000000  00000000  000000d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.vfs_fat_access 00000020  00000000  00000000  00000144  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.vfs_fat_fsync 00000018  00000000  00000000  00000164  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.vfs_fat_rmdir 00000018  00000000  00000000  0000017c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.vfs_fat_unlink 00000018  00000000  00000000  00000194  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.vfs_fat_mkdir 00000018  00000000  00000000  000001ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.vfs_fat_closedir 00000020  00000000  00000000  000001c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.vfs_fat_seekdir 00000028  00000000  00000000  000001e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.vfs_fat_readdir_r 0000001c  00000000  00000000  0000020c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal.vfs_fat_readdir 00000008  00000000  00000000  00000228  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal.vfs_fat_opendir 00000028  00000000  00000000  00000230  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .literal.vfs_fat_rename 00000018  00000000  00000000  00000258  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .literal.vfs_fat_read 00000010  00000000  00000000  00000270  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .literal.vfs_fat_link 00000060  00000000  00000000  00000280  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .literal.vfs_fat_write 00000020  00000000  00000000  000002e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .literal.find_context_index_by_path 00000008  00000000  00000000  00000300  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .literal.file_cleanup 0000000c  00000000  00000000  00000308  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .literal.vfs_fat_close 0000001c  00000000  00000000  00000314  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .literal.vfs_fat_open 00000044  00000000  00000000  00000330  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .literal.vfs_fat_stat 0000003c  00000000  00000000  00000374  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .literal.esp_vfs_fat_register 00000094  00000000  00000000  000003b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .literal.esp_vfs_fat_unregister_path 00000018  00000000  00000000  00000444  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .literal.esp_vfs_fat_unregister 00000008  00000000  00000000  0000045c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text         00000000  00000000  00000000  00000464  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 33 .data         00000000  00000000  00000000  00000464  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 34 .bss          00000000  00000000  00000000  00000464  2**0
+                  ALLOC
+ 35 .text.find_unused_context_index 0000001b  00000000  00000000  00000464  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .text.get_next_fd 0000002d  00000000  00000000  00000480  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .text.fat_mode_conv 0000004e  00000000  00000000  000004b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .text.vfs_fat_fstat 0000002a  00000000  00000000  00000500  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .rodata.str1.4 0000010e  00000000  00000000  0000052c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 40 .text.prepend_drive_to_path 0000003a  00000000  00000000  0000063c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 41 .text.fresult_to_errno 0000007e  00000000  00000000  00000678  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 42 .rodata.fresult_to_errno 00000050  00000000  00000000  000006f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 43 .text.vfs_fat_utime 000000f7  00000000  00000000  00000748  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 44 .text.vfs_fat_telldir 0000001c  00000000  00000000  00000840  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .text.vfs_fat_lseek 0000008c  00000000  00000000  0000085c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 46 .text.vfs_fat_truncate 00000132  00000000  00000000  000008e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 47 .text.vfs_fat_access 0000008b  00000000  00000000  00000a1c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 48 .text.vfs_fat_fsync 0000004e  00000000  00000000  00000aa8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 49 .text.vfs_fat_rmdir 0000004a  00000000  00000000  00000af8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 50 .text.vfs_fat_unlink 0000004a  00000000  00000000  00000b44  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 51 .text.vfs_fat_mkdir 0000004a  00000000  00000000  00000b90  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 52 .text.vfs_fat_closedir 00000046  00000000  00000000  00000bdc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 53 .text.vfs_fat_seekdir 00000079  00000000  00000000  00000c24  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 54 .text.vfs_fat_readdir_r 00000070  00000000  00000000  00000ca0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 55 .text.vfs_fat_readdir 00000026  00000000  00000000  00000d10  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 56 .text.vfs_fat_opendir 00000076  00000000  00000000  00000d38  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 57 .text.vfs_fat_rename 0000004e  00000000  00000000  00000db0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 58 .text.vfs_fat_read 0000004a  00000000  00000000  00000e00  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 59 .text.vfs_fat_link 0000015a  00000000  00000000  00000e4c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 60 .text.vfs_fat_write 00000086  00000000  00000000  00000fa8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 61 .text.find_context_index_by_path 0000002c  00000000  00000000  00001030  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 62 .text.file_cleanup 00000024  00000000  00000000  0000105c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 63 .text.vfs_fat_close 00000058  00000000  00000000  00001080  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 64 .text.vfs_fat_open 000000d8  00000000  00000000  000010d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 65 .text.vfs_fat_stat 000000fe  00000000  00000000  000011b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 66 .text.esp_vfs_fat_register 00000161  00000000  00000000  000012b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 67 .text.esp_vfs_fat_unregister_path 00000055  00000000  00000000  00001414  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 68 .text.esp_vfs_fat_unregister 00000026  00000000  00000000  0000146c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 69 .rodata.__func__$6804 00000012  00000000  00000000  00001494  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 70 .rodata.__func__$6811 00000010  00000000  00000000  000014a8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 71 .rodata.__func__$6818 00000010  00000000  00000000  000014b8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 72 .rodata.__func__$6788 00000011  00000000  00000000  000014c8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 73 .rodata.__func__$6626 00000011  00000000  00000000  000014dc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 74 .bss.s_fat_ctx 00000004  00000000  00000000  000014f0  2**2
+                  ALLOC
+ 75 .bss.s_fat_ctxs 00000008  00000000  00000000  000014f0  2**2
+                  ALLOC
+ 76 .debug_frame  00000310  00000000  00000000  000014f0  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 77 .debug_info   000036f1  00000000  00000000  00001800  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 78 .debug_abbrev 00000403  00000000  00000000  00004ef1  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 79 .debug_loc    000018ed  00000000  00000000  000052f4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 80 .debug_aranges 00000118  00000000  00000000  00006be1  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 81 .debug_ranges 00000120  00000000  00000000  00006cf9  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 82 .debug_line   0000115c  00000000  00000000  00006e19  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 83 .debug_str    00000ed0  00000000  00000000  00007f75  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 84 .comment      0000003c  00000000  00000000  00008e45  2**0
+                  CONTENTS, READONLY
+ 85 .xtensa.info  00000038  00000000  00000000  00008e81  2**0
+                  CONTENTS, READONLY
+ 86 .xt.lit       00000100  00000000  00000000  00008eb9  2**0
+                  CONTENTS, RELOC, READONLY
+ 87 .xt.prop      00000edc  00000000  00000000  00008fb9  2**0
+                  CONTENTS, RELOC, READONLY
+
+vfs_fat_spiflash.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.esp_vfs_fat_spiflash_mount 000000a0  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.esp_vfs_fat_spiflash_unmount 00000018  00000000  00000000  000000d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.esp_vfs_fat_rawflash_mount 00000044  00000000  00000000  000000ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.esp_vfs_fat_rawflash_unmount 00000024  00000000  00000000  00000130  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .text         00000000  00000000  00000000  00000154  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .data         00000000  00000000  00000000  00000154  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  6 .bss          00000000  00000000  00000000  00000154  2**0
+                  ALLOC
+  7 .rodata.str1.4 0000029f  00000000  00000000  00000154  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  8 .text.esp_vfs_fat_spiflash_mount 0000020e  00000000  00000000  000003f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text.esp_vfs_fat_spiflash_unmount 00000065  00000000  00000000  00000604  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .text.esp_vfs_fat_rawflash_mount 000000f2  00000000  00000000  0000066c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text.esp_vfs_fat_rawflash_unmount 00000079  00000000  00000000  00000760  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .debug_frame  00000070  00000000  00000000  000007dc  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 13 .debug_info   00000e34  00000000  00000000  0000084c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 14 .debug_abbrev 000001fc  00000000  00000000  00001680  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 15 .debug_loc    00000505  00000000  00000000  0000187c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 16 .debug_aranges 00000038  00000000  00000000  00001d81  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_ranges 00000048  00000000  00000000  00001db9  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_line   0000068c  00000000  00000000  00001e01  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_str    00000b53  00000000  00000000  0000248d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 20 .comment      0000003c  00000000  00000000  00002fe0  2**0
+                  CONTENTS, READONLY
+ 21 .xtensa.info  00000038  00000000  00000000  0000301c  2**0
+                  CONTENTS, READONLY
+ 22 .xt.lit       00000020  00000000  00000000  00003054  2**0
+                  CONTENTS, RELOC, READONLY
+ 23 .xt.prop      00000294  00000000  00000000  00003074  2**0
+                  CONTENTS, RELOC, READONLY
+
+diskio_sdmmc.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.ff_sdmmc_ioctl 00000014  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.ff_sdmmc_read 00000028  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.ff_sdmmc_write 00000028  00000000  00000000  00000070  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.ff_diskio_register_sdmmc 0000000c  00000000  00000000  00000098  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .text         00000000  00000000  00000000  000000a4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .data         00000000  00000000  00000000  000000a4  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  6 .bss          00000000  00000000  00000000  000000a4  2**0
+                  ALLOC
+  7 .text.ff_sdmmc_initialize 00000007  00000000  00000000  000000a4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .text.ff_sdmmc_status 00000007  00000000  00000000  000000ac  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  9 .rodata.str1.4 000000d2  00000000  00000000  000000b4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 10 .text.ff_sdmmc_ioctl 0000004c  00000000  00000000  00000188  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text.ff_sdmmc_read 00000054  00000000  00000000  000001d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.ff_sdmmc_write 00000054  00000000  00000000  00000228  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.ff_diskio_register_sdmmc 0000001a  00000000  00000000  0000027c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .rodata.sdmmc_impl$5457 00000014  00000000  00000000  00000298  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 15 .rodata.__func__$5448 0000000f  00000000  00000000  000002ac  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 16 .rodata.__func__$5440 0000000f  00000000  00000000  000002bc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 17 .rodata.__func__$5431 0000000e  00000000  00000000  000002cc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 18 .bss.s_cards  00000008  00000000  00000000  000002dc  2**2
+                  ALLOC
+ 19 .debug_frame  000000a0  00000000  00000000  000002dc  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 20 .debug_info   00000a93  00000000  00000000  0000037c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 21 .debug_abbrev 000001bf  00000000  00000000  00000e0f  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 22 .debug_loc    000001d3  00000000  00000000  00000fce  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 23 .debug_aranges 00000048  00000000  00000000  000011a1  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 24 .debug_ranges 00000038  00000000  00000000  000011e9  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_line   00000460  00000000  00000000  00001221  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 26 .debug_str    00000614  00000000  00000000  00001681  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 27 .comment      0000003c  00000000  00000000  00001c95  2**0
+                  CONTENTS, READONLY
+ 28 .xtensa.info  00000038  00000000  00000000  00001cd1  2**0
+                  CONTENTS, READONLY
+ 29 .xt.lit       00000020  00000000  00000000  00001d09  2**0
+                  CONTENTS, RELOC, READONLY
+ 30 .xt.prop      000001f8  00000000  00000000  00001d29  2**0
+                  CONTENTS, RELOC, READONLY
+
+vfs_fat_sdmmc.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.esp_vfs_fat_sdmmc_mount 00000090  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.esp_vfs_fat_sdmmc_unmount 00000020  00000000  00000000  000000c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .text         00000000  00000000  00000000  000000e4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .data         00000000  00000000  00000000  000000e4  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  4 .bss          00000000  00000000  00000000  000000e4  2**0
+                  ALLOC
+  5 .rodata.str1.4 000000d6  00000000  00000000  000000e4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  6 .text.esp_vfs_fat_sdmmc_mount 0000028a  00000000  00000000  000001bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text.esp_vfs_fat_sdmmc_unmount 00000071  00000000  00000000  00000448  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .bss.s_base_path 00000004  00000000  00000000  000004bc  2**2
+                  ALLOC
+  9 .bss.s_pdrv   00000001  00000000  00000000  000004bc  2**0
+                  ALLOC
+ 10 .bss.s_card   00000004  00000000  00000000  000004bc  2**2
+                  ALLOC
+ 11 .debug_frame  00000040  00000000  00000000  000004bc  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 12 .debug_info   00000f1b  00000000  00000000  000004fc  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 13 .debug_abbrev 00000258  00000000  00000000  00001417  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 14 .debug_loc    00000392  00000000  00000000  0000166f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 15 .debug_aranges 00000028  00000000  00000000  00001a01  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 16 .debug_ranges 00000038  00000000  00000000  00001a29  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_line   000005eb  00000000  00000000  00001a61  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_str    00000aef  00000000  00000000  0000204c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 19 .comment      0000003c  00000000  00000000  00002b3b  2**0
+                  CONTENTS, READONLY
+ 20 .xtensa.info  00000038  00000000  00000000  00002b77  2**0
+                  CONTENTS, READONLY
+ 21 .xt.lit       00000010  00000000  00000000  00002baf  2**0
+                  CONTENTS, RELOC, READONLY
+ 22 .xt.prop      00000240  00000000  00000000  00002bbf  2**0
+                  CONTENTS, RELOC, READONLY
+
+diskio_rawflash.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.ff_raw_ioctl 00000018  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.ff_raw_read 00000028  00000000  00000000  0000004c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.ff_diskio_register_raw_partition 0000000c  00000000  00000000  00000074  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.ff_diskio_get_pdrv_raw 00000004  00000000  00000000  00000080  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .text         00000000  00000000  00000000  00000084  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .data         00000000  00000000  00000000  00000084  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  6 .bss          00000000  00000000  00000000  00000084  2**0
+                  ALLOC
+  7 .text.ff_raw_initialize 00000007  00000000  00000000  00000084  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .text.ff_raw_status 00000007  00000000  00000000  0000008c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  9 .text.ff_raw_write 00000007  00000000  00000000  00000094  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 10 .rodata.str1.4 0000009c  00000000  00000000  0000009c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 11 .text.ff_raw_ioctl 0000004d  00000000  00000000  00000138  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.ff_raw_read 00000058  00000000  00000000  00000188  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.ff_diskio_register_raw_partition 00000025  00000000  00000000  000001e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.ff_diskio_get_pdrv_raw 00000022  00000000  00000000  00000208  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .rodata.raw_impl$5781 00000014  00000000  00000000  0000022c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 16 .rodata.__func__$5772 0000000d  00000000  00000000  00000240  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 17 .rodata.__func__$5758 0000000c  00000000  00000000  00000250  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 18 .debug_frame  000000b8  00000000  00000000  0000025c  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_info   0000071d  00000000  00000000  00000314  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 20 .debug_abbrev 00000192  00000000  00000000  00000a31  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 21 .debug_loc    000001fa  00000000  00000000  00000bc3  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_aranges 00000050  00000000  00000000  00000dbd  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 23 .debug_ranges 00000040  00000000  00000000  00000e0d  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 24 .debug_line   00000388  00000000  00000000  00000e4d  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_str    0000080a  00000000  00000000  000011d5  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 26 .comment      0000003c  00000000  00000000  000019df  2**0
+                  CONTENTS, READONLY
+ 27 .xtensa.info  00000038  00000000  00000000  00001a1b  2**0
+                  CONTENTS, READONLY
+ 28 .xt.lit       00000020  00000000  00000000  00001a53  2**0
+                  CONTENTS, RELOC, READONLY
+ 29 .xt.prop      00000228  00000000  00000000  00001a73  2**0
+                  CONTENTS, RELOC, READONLY
+
+ffunicode.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  00000034  2**0
+                  ALLOC
+  3 .debug_info   00000079  00000000  00000000  00000034  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  4 .debug_abbrev 00000026  00000000  00000000  000000ad  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_aranges 00000018  00000000  00000000  000000d3  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  6 .debug_line   0000001d  00000000  00000000  000000eb  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_str    00000197  00000000  00000000  00000108  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .comment      0000003c  00000000  00000000  0000029f  2**0
+                  CONTENTS, READONLY
+  9 .xtensa.info  00000038  00000000  00000000  000002db  2**0
+                  CONTENTS, READONLY
+
+ff.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.ld_clust 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.st_clust 00000008  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.get_fileinfo 0000000c  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.create_name 00000018  00000000  00000000  00000050  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.lock_fs 00000004  00000000  00000000  00000068  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.sync_window 00000008  00000000  00000000  0000006c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.move_window 00000008  00000000  00000000  00000074  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.check_fs 0000001c  00000000  00000000  0000007c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.find_volume 00000088  00000000  00000000  00000098  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.put_fat 00000024  00000000  00000000  00000120  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.get_fat 0000001c  00000000  00000000  00000144  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.dir_sdi 0000000c  00000000  00000000  00000160  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.create_chain 00000014  00000000  00000000  0000016c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.remove_chain 0000000c  00000000  00000000  00000180  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.dir_remove 00000004  00000000  00000000  0000018c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.dir_clear 00000010  00000000  00000000  00000190  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.dir_next 00000014  00000000  00000000  000001a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.dir_find 00000010  00000000  00000000  000001b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal.follow_path 00000010  00000000  00000000  000001c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal.dir_alloc 0000000c  00000000  00000000  000001d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .literal.dir_register 00000010  00000000  00000000  000001e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .literal.dir_read 00000008  00000000  00000000  000001f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .literal.sync_fs 00000030  00000000  00000000  000001f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .literal.unlock_fs 00000004  00000000  00000000  00000228  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .literal.validate 0000000c  00000000  00000000  0000022c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .literal.f_mount 00000018  00000000  00000000  00000238  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .literal.f_open 00000050  00000000  00000000  00000250  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .literal.f_read 00000044  00000000  00000000  000002a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .literal.f_write 00000048  00000000  00000000  000002e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .literal.f_sync 0000002c  00000000  00000000  0000032c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .literal.f_close 0000000c  00000000  00000000  00000358  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .literal.f_lseek 00000040  00000000  00000000  00000364  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .literal.f_opendir 00000014  00000000  00000000  000003a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .literal.f_closedir 00000008  00000000  00000000  000003b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .literal.f_readdir 00000018  00000000  00000000  000003c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .literal.f_stat 00000018  00000000  00000000  000003d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .literal.f_getfree 0000001c  00000000  00000000  000003f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .literal.f_truncate 00000024  00000000  00000000  0000040c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .literal.f_unlink 0000002c  00000000  00000000  00000430  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .literal.f_mkdir 0000004c  00000000  00000000  0000045c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .literal.f_rename 00000044  00000000  00000000  000004a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 41 .literal.f_chmod 00000018  00000000  00000000  000004ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 42 .literal.f_utime 0000001c  00000000  00000000  00000504  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 43 .literal.f_mkfs 00000140  00000000  00000000  00000520  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 44 .literal.f_fdisk 00000034  00000000  00000000  00000660  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .text         00000000  00000000  00000000  00000694  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 46 .data         00000000  00000000  00000000  00000694  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 47 .bss          00000000  00000000  00000000  00000694  2**0
+                  ALLOC
+ 48 .text.ld_word 00000011  00000000  00000000  00000694  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 49 .text.ld_dword 00000023  00000000  00000000  000006a8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 50 .text.st_word 0000000e  00000000  00000000  000006cc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 51 .text.st_dword 0000001a  00000000  00000000  000006dc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 52 .text.mem_cpy 00000016  00000000  00000000  000006f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 53 .text.mem_set 0000000f  00000000  00000000  00000710  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 54 .text.mem_cmp 00000020  00000000  00000000  00000720  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 55 .text.chk_chr 00000014  00000000  00000000  00000740  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 56 .text.dbc_1st 00000007  00000000  00000000  00000754  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 57 .text.dbc_2nd 00000007  00000000  00000000  0000075c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 58 .text.clst2sect 0000001e  00000000  00000000  00000764  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 59 .text.ld_clust 00000027  00000000  00000000  00000784  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 60 .text.st_clust 00000023  00000000  00000000  000007ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 61 .text.get_fileinfo 00000083  00000000  00000000  000007d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 62 .rodata.str1.4 00000050  00000000  00000000  00000854  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 63 .text.create_name 00000170  00000000  00000000  000008a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 64 .text.get_ldnumber 00000062  00000000  00000000  00000a14  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 65 .text.lock_fs 00000010  00000000  00000000  00000a78  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 66 .text.sync_window 00000056  00000000  00000000  00000a88  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 67 .text.move_window 00000036  00000000  00000000  00000ae0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 68 .text.check_fs 0000008e  00000000  00000000  00000b18  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 69 .text.find_volume 0000037c  00000000  00000000  00000ba8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 70 .text.put_fat 00000156  00000000  00000000  00000f24  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 71 .text.get_fat 00000100  00000000  00000000  0000107c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 72 .text.dir_sdi 000000a8  00000000  00000000  0000117c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 73 .text.create_chain 0000014e  00000000  00000000  00001224  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 74 .text.remove_chain 00000081  00000000  00000000  00001374  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 75 .text.dir_remove 00000022  00000000  00000000  000013f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 76 .text.dir_clear 00000062  00000000  00000000  0000141c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 77 .text.dir_next 000000cc  00000000  00000000  00001480  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 78 .text.dir_find 00000065  00000000  00000000  0000154c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 79 .text.follow_path 000000a3  00000000  00000000  000015b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 80 .text.dir_alloc 0000005e  00000000  00000000  00001658  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 81 .text.dir_register 00000049  00000000  00000000  000016b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 82 .text.dir_read 00000072  00000000  00000000  00001704  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 83 .text.sync_fs 0000009e  00000000  00000000  00001778  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 84 .text.unlock_fs 0000003f  00000000  00000000  00001818  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 85 .text.validate 00000069  00000000  00000000  00001858  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 86 .text.f_mount 00000086  00000000  00000000  000018c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 87 .text.f_open  00000228  00000000  00000000  0000194c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 88 .text.f_read  000001f2  00000000  00000000  00001b74  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 89 .text.f_write 00000235  00000000  00000000  00001d68  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 90 .text.f_sync  000000d0  00000000  00000000  00001fa0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 91 .text.f_close 0000002e  00000000  00000000  00002070  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 92 .text.f_lseek 000001f2  00000000  00000000  000020a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 93 .text.f_opendir 00000082  00000000  00000000  00002294  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 94 .text.f_closedir 00000022  00000000  00000000  00002318  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 95 .text.f_readdir 0000005e  00000000  00000000  0000233c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 96 .text.f_stat  00000074  00000000  00000000  0000239c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 97 .text.f_getfree 000000de  00000000  00000000  00002410  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 98 .text.f_truncate 000000e4  00000000  00000000  000024f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 99 .text.f_unlink 000000f3  00000000  00000000  000025d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+100 .text.f_mkdir 0000015f  00000000  00000000  000026c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+101 .text.f_rename 0000017e  00000000  00000000  00002828  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+102 .text.f_chmod 00000097  00000000  00000000  000029a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+103 .text.f_utime 00000093  00000000  00000000  00002a40  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+104 .text.f_mkfs  00000744  00000000  00000000  00002ad4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+105 .text.f_fdisk 00000178  00000000  00000000  00003218  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+106 .rodata.cst$5846 0000000e  00000000  00000000  00003390  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+107 .rodata.cst32$5847 0000000e  00000000  00000000  000033a0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+108 .rodata.ExCvt 00000080  00000000  00000000  000033b0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+109 .bss.Fsid     00000002  00000000  00000000  00003430  2**1
+                  ALLOC
+110 .bss.FatFs    00000008  00000000  00000000  00003430  2**2
+                  ALLOC
+111 .debug_frame  00000568  00000000  00000000  00003430  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+112 .debug_info   00003e7e  00000000  00000000  00003998  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+113 .debug_abbrev 00000223  00000000  00000000  00007816  2**0
+                  CONTENTS, READONLY, DEBUGGING
+114 .debug_loc    00003f56  00000000  00000000  00007a39  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+115 .debug_aranges 000001e0  00000000  00000000  0000b98f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+116 .debug_ranges 000001d0  00000000  00000000  0000bb6f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+117 .debug_line   00002a1f  00000000  00000000  0000bd3f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+118 .debug_str    00000875  00000000  00000000  0000e75e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+119 .comment      0000003c  00000000  00000000  0000efd3  2**0
+                  CONTENTS, READONLY
+120 .xtensa.info  00000038  00000000  00000000  0000f00f  2**0
+                  CONTENTS, READONLY
+121 .xt.lit       00000168  00000000  00000000  0000f047  2**0
+                  CONTENTS, RELOC, READONLY
+122 .xt.prop      00002cc4  00000000  00000000  0000f1af  2**0
+                  CONTENTS, RELOC, READONLY
+
+diskio_wl.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.ff_wl_read 00000030  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.ff_wl_write 00000048  00000000  00000000  00000064  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.ff_wl_ioctl 00000020  00000000  00000000  000000ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.ff_diskio_register_wl_partition 0000000c  00000000  00000000  000000cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.ff_diskio_get_pdrv_wl 00000004  00000000  00000000  000000d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.ff_diskio_clear_pdrv_wl 00000004  00000000  00000000  000000dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .text         00000000  00000000  00000000  000000e0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  7 .data         00000000  00000000  00000000  000000e0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  8 .bss          00000000  00000000  00000000  000000e0  2**0
+                  ALLOC
+  9 .text.ff_wl_initialize 00000007  00000000  00000000  000000e0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 10 .text.ff_wl_status 00000007  00000000  00000000  000000e8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 11 .rodata.str1.4 000000f8  00000000  00000000  000000f0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 12 .text.ff_wl_read 0000006c  00000000  00000000  000001e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.ff_wl_write 000000b0  00000000  00000000  00000254  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.ff_wl_ioctl 00000064  00000000  00000000  00000304  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.ff_diskio_register_wl_partition 00000025  00000000  00000000  00000368  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.ff_diskio_get_pdrv_wl 00000022  00000000  00000000  00000390  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.ff_diskio_clear_pdrv_wl 00000024  00000000  00000000  000003b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .rodata.wl_impl$5810 00000014  00000000  00000000  000003d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 19 .rodata.__func__$5801 0000000c  00000000  00000000  000003ec  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 20 .rodata.__func__$5793 0000000c  00000000  00000000  000003f8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 21 .rodata.__func__$5784 0000000b  00000000  00000000  00000404  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 22 .data.ff_wl_handles 00000008  00000000  00000000  00000410  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 23 .debug_frame  000000d0  00000000  00000000  00000418  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 24 .debug_info   000007e2  00000000  00000000  000004e8  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_abbrev 000001ac  00000000  00000000  00000cca  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 26 .debug_loc    000002ae  00000000  00000000  00000e76  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 27 .debug_aranges 00000058  00000000  00000000  00001124  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 28 .debug_ranges 00000048  00000000  00000000  0000117c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 29 .debug_line   00000426  00000000  00000000  000011c4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 30 .debug_str    000003f0  00000000  00000000  000015ea  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 31 .comment      0000003c  00000000  00000000  000019da  2**0
+                  CONTENTS, READONLY
+ 32 .xtensa.info  00000038  00000000  00000000  00001a16  2**0
+                  CONTENTS, READONLY
+ 33 .xt.lit       00000030  00000000  00000000  00001a4e  2**0
+                  CONTENTS, RELOC, READONLY
+ 34 .xt.prop      000002dc  00000000  00000000  00001a7e  2**0
+                  CONTENTS, RELOC, READONLY
+
+ffsystem.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.ff_memalloc 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.ff_memcalloc 00000004  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.ff_memfree 00000004  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.ff_cre_syncobj 00000004  00000000  00000000  00000040  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.ff_del_syncobj 00000004  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.ff_req_grant 00000004  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.ff_rel_grant 00000004  00000000  00000000  0000004c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text         00000000  00000000  00000000  00000050  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .data         00000000  00000000  00000000  00000050  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  9 .bss          00000000  00000000  00000000  00000050  2**0
+                  ALLOC
+ 10 .text.ff_memalloc 00000010  00000000  00000000  00000050  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text.ff_memcalloc 00000011  00000000  00000000  00000060  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.ff_memfree 0000000e  00000000  00000000  00000074  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.ff_cre_syncobj 00000017  00000000  00000000  00000084  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.ff_del_syncobj 00000010  00000000  00000000  0000009c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.ff_req_grant 0000001d  00000000  00000000  000000ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.ff_rel_grant 00000013  00000000  00000000  000000cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .debug_frame  000000b8  00000000  00000000  000000e0  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_info   0000030a  00000000  00000000  00000198  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_abbrev 000000e3  00000000  00000000  000004a2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 20 .debug_loc    000000a5  00000000  00000000  00000585  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 21 .debug_aranges 00000050  00000000  00000000  0000062a  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_ranges 00000040  00000000  00000000  0000067a  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 23 .debug_line   00000256  00000000  00000000  000006ba  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 24 .debug_str    000002c8  00000000  00000000  00000910  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 25 .comment      0000003c  00000000  00000000  00000bd8  2**0
+                  CONTENTS, READONLY
+ 26 .xtensa.info  00000038  00000000  00000000  00000c14  2**0
+                  CONTENTS, READONLY
+ 27 .xt.lit       00000038  00000000  00000000  00000c4c  2**0
+                  CONTENTS, RELOC, READONLY
+ 28 .xt.prop      00000150  00000000  00000000  00000c84  2**0
+                  CONTENTS, RELOC, READONLY

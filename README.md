@@ -1,2 +1,5 @@
-# tft_sniff
-Wifi Lister for ESP32
+## SPI master example
+
+This code displays a simple graphics with varying pixel colors on the 
+320x240 LCD on an ESP-WROVER-KIT board.
+

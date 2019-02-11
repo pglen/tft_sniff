@@ -1,0 +1,11 @@
+the corresponding indices into this palette are:
+
+    0 — black      8 — gray
+    1 — maroon     9 — red
+    2 — green      10 — lime
+    3 — olive      11 — yellow
+    4 — navy       12 — blue
+    5 — purple     13 — fuchsia
+    6 — teal       14 — aqua
+    7 — silver     15 — white
+
