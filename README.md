@@ -15,6 +15,10 @@ a timer loop for continuous scanning. Lots of goodies also included:
  * Font generator. (compiles on linux)
  * Wifi initializer / scanner
  
+  The TFT library is custom made with double buffering. It performs really 
+  fast compared to the single buffered version. See code for driving the TFT.
+  Notice, the display code talks to two halfs of the display sequentially.
+  
   Enjoy,    
  
    ![Screen Shot](./screen.jpg)
