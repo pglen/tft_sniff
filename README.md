@@ -7,12 +7,15 @@
   The example contains the display driver, the wifi scanning code, and
 a timer loop for continuous scanning. Lots of goodies also included:
 
+ * GUI primitives,  fonts, basic shapes, (rect / line .. etc)
  * Fonts for different sizes 
-    small, medim, large .. double large
+   **     small, 
+   ** medim, 
+   ** large .. double large
  * Font generator. (compiles on linux)
  * Wifi initializer / scanner
  
-  Enjoy,
+  Enjoy,    
  
    ![Screen Shot](./screen.jpg)
       
