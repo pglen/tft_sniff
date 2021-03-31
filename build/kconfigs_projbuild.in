@@ -1,0 +1,5 @@
+source "/home/peterglen/esp/esp-idf.4.3/components/app_update/Kconfig.projbuild"
+source "/home/peterglen/esp/esp-idf.4.3/components/bootloader/Kconfig.projbuild"
+source "/home/peterglen/esp/esp-idf.4.3/components/esptool_py/Kconfig.projbuild"
+source "/akostar/esp/esp-code/tft_sniff/main/Kconfig.projbuild"
+source "/home/peterglen/esp/esp-idf.4.3/components/partition_table/Kconfig.projbuild"
